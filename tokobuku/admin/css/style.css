@@ -1,0 +1,138 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Ukuran font utama */
+    background-color: #f4f7fa;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 32px; /* Ukuran font untuk h1 */
+    color: #1a202c;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px; /* Ukuran font untuk h2 */
+    color: #2d3748;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 22px; /* Ukuran font untuk h3 */
+    color: #4a5568;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+form label {
+    font-size: 16px; /* Ukuran font untuk label */
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 8px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #d2d6dc;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #4fd1c5; /* Warna tombol */
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #38b2ac; /* Warna hover tombol */
+}
+
+/* Tabel Styling */
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px; /* Ukuran font untuk tabel */
+}
+
+table th {
+    background-color: #edf2f7;
+    color: #2d3748;
+    font-weight: bold;
+}
+
+table td {
+    color: #4a5568;
+}
+
+/* Alternating Row Colors */
+table tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+table tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* Tabel Image */
+table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Action Links */
+a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button inline */
+button.inline {
+    background-color: #e53e3e;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button.inline:hover {
+    background-color: #c53030;
+}
